@@ -1,16 +1,20 @@
 # in-numri
 
- *in-numri bil-Malti, liczby po maltańsku*
+ *in-numri bil-Malti, Maltese numbers*
 
-This is a Maltese and Polish script to learn Maltese numbers more conversationally. 
-English comments are added to the script to explain the Polish input and variables.
+This is a Maltese and English script to learn Maltese numbers more conversationally. 
 
-## Python functions used: 
+## Used in code: 
 
-<ul>
-<li>input and print</li>
-<li>if/elif/else statements</li>
-<li>dictionaries</li>
-<li>importing module</li>
-<li>time sleep</li>
-</ul> 
+* importing module
+* print
+* input
+* time
+* dictionary
+* for loop
+* string manipulation
+* if/elif/else statements
+* custom function
+* tuple
+* random
+* exit
