@@ -4,6 +4,8 @@
 
 This is a Maltese and English script to learn Maltese numbers more conversationally. 
 
+[![CodeQL](https://github.com/sambork/in-numri/actions/workflows/github-code-scanning/codeql/badge.svg?branch=main)](https://github.com/sambork/in-numri/actions/workflows/github-code-scanning/codeql)
+
 ## Used in code: 
 
 * importing module
