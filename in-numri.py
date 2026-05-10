@@ -20,7 +20,7 @@ numri1_10 = {
     7: "sebgħa",
     8: "tmienja",
     9: "disgħa",
-    10: "għaxra"
+    10: "għaxra",
 }
 
 for numri, kelma in numri1_10.items():
@@ -43,12 +43,15 @@ print("\nProsit! You finished the writing practice!")
 
 print("Now it's time for the quiz!")
 
+
 def countdown(start):
     for i in range(start, -1, -1):
         print(f"{i}...")
         time.sleep(1)
 
+
 countdown(5)
+
 
 def run_quiz(numri_dict):
     numri_quiz = list(numri_dict.items())
@@ -77,11 +80,14 @@ def run_quiz(numri_dict):
             time.sleep(0.5)
         time.sleep(3)
 
-        play_again = input("\nWould you like to play the quiz again? (yes/no): ").strip().lower()
+        play_again = (
+            input("\nWould you like to play the quiz again? (yes/no): ").strip().lower()
+        )
         if play_again in ["yes", "y", "iva"]:
             run_quiz(numri_dict)
         else:
             print("Ok, take a break!")
+
 
 run_quiz(numri1_10)
 
@@ -98,7 +104,7 @@ numri11_20 = {
     17: "sbatax",
     18: "tmintax",
     19: "dsatax",
-    20: "għoxrin"
+    20: "għoxrin",
 }
 
 print("\nLet's learn numbers 11-20!")
